@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react"
 import { organizers } from "../data/organizers";
 import travels from "../data/travel";
+import { useNavigate } from "react-router-dom";
 
 export default function FormPage({ setTravelArray }) {
+
+    const navigate = useNavigate();
 
     const initialData = {
         id: "",
@@ -40,6 +43,7 @@ export default function FormPage({ setTravelArray }) {
         setTravelArray(newArray);
         setRefresh(!refresh);
         setFormData(initialData);
+        navigate('/');
 
 
     }

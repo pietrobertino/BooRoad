@@ -7,6 +7,7 @@ import { Link } from "react-router-dom"
 
 export default function HomePage({ travelArray }) {
 
+    // sarebbe utile ordinare i viaggi a seconda della data di inizio, in ordine decrescente
 
     return (
         <>

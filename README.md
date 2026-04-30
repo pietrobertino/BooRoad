@@ -39,7 +39,7 @@ VERONICA
 rilascio specifico - secondo, terzo ecc)
 
  2° database in cui salvare e visualizzare tutte le informazioni dei partecipanti 
- 2° possibilità di modifcare info del viaggio, aggiungere togliere partecipanti, gestire accompagnatori, nella schermata del viaggio, separazione schermata admin e accompagnatori
+ 2° possibilità di modifcare info del viaggio, aggiungere togliere partecipanti, gestire accompagnatori, tutto nella schermata del viaggio. separazione schermata admin e accompagnatori (gli accompagnatori possono vedere solo la schermata del vaiggio -senza mdoficarla- e del singolo partecipante, mentre gli organizzatori tutto, quindi le schermate con tutti i viaggi, le modifiche e le aggiunte)
  3° pulsanti per contatti rapidi nella pagina del partecipante 
  3° design del sito più elaborato
  

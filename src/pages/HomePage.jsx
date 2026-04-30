@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 
 
-export default function HomePage() {
+export default function HomePage({ travelArray }) {
 
 
     return (
@@ -13,9 +13,9 @@ export default function HomePage() {
             <h1 className="text-center p-3">Lista Viaggi</h1>
             <div className="container">
                 <div className="d-flex justify-content-end"><Link className="btn btn-primary my-3" to="/travels/addTravel">Add Travel</Link></div>
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
                     {
-                        travels.map(travel => (
+                        travelArray.map(travel => (
                             <div className="col" key={travel.id}>
                                 <div className="card h-100" style={{ width: "18rem" }}>
                                     <img src={`https://placehold.co/600x400?text=${travel.title.replace(" ", "+")}`} className="card-img-top " alt={travel.title} />

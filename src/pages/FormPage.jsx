@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { organizers } from "../data/organizers";
 import travels from "../data/travel";
 
-export default function FormPage() {
+export default function FormPage({ setTravelArray }) {
 
     const initialData = {
         id: "",
@@ -35,6 +35,9 @@ export default function FormPage() {
     function handleSubmit(e) {
         e.preventDefault();
         travels.push(formData);
+        const newArray = travels;
+        console.log(newArray)
+        setTravelArray(newArray);
         setRefresh(!refresh);
         setFormData(initialData);
 
@@ -63,14 +66,14 @@ export default function FormPage() {
                         className=" form-control mt-3" />
                     <label htmlFor="startDate" className=" form-label mt-3">Travel start date:</label>
                     <input
-                        name="startDate"
+                        id="startDate"
                         type="date"
                         value={formData.startDate}
                         onChange={e => setFormData({ ...formData, startDate: e.target.value })}
                         className=" form-control mt-1" />
                     <label htmlFor="endDate" className=" form-label mt-3">Travel end date:</label>
                     <input
-                        name="endDate"
+                        id="endDate"
                         type="date"
                         value={formData.endDate}
                         onChange={e => setFormData({ ...formData, endDate: e.target.value })}

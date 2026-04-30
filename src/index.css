@@ -1,0 +1,31 @@
+@import url('bootstrap');
+@import url('bootstrap-icons');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-card {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 20px;
+    background: rgba(255, 255, 153, 0.6);
+}
+
+.img-user {
+    border-radius: 30px;
+}
+
+
+.number {
+    text-decoration: none;
+    color: #1d4ed8;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+}

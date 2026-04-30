@@ -20,7 +20,7 @@ c. pagina partecipante
 
 
 
-IO ERNESTO
+IO (PARTE ADMIN) ERNESTO (PARTE ORGANIZZATORI)
 3. Spiegate quali sono le funzionalità principali realizzate e a quali bisogni del cliente + Presentate il prototipo e mostrate le funzionalità
 rispondono
 
